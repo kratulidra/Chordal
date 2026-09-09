@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "chordal",
-	"version": "${version}",
+	"version": "${version}/",
 	"name": "Chordal",
 	"description": "A mod that implements a playable guitar using chords.",
 	"authors": [

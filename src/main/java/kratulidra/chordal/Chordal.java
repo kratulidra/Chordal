@@ -7,6 +7,8 @@ import net.minecraft.resources.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import static kratulidra.chordal.Items.initialize;
+
 public class Chordal implements ModInitializer {
 	public static final String MOD_ID = "chordal";
 
@@ -22,6 +24,8 @@ public class Chordal implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+
+		initialize();
 	}
 
 	public static Identifier id(String path) {
