@@ -26,6 +26,7 @@ public class Chordal implements ModInitializer {
 		LOGGER.info("Hello Fabric world!");
 
 		initialize();
+		ModEntitiesRegistries.registerModEntityTypes();
 	}
 
 	public static Identifier id(String path) {
